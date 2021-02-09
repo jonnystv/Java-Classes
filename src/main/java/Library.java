@@ -10,4 +10,8 @@ public class Library {
         this.capacity = capacity;
         this.stockList = new ArrayList<Book>();
     }
+
+    public int getBookCount() {
+        return this.stockList.size();
+    }
 }
