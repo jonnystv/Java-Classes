@@ -21,4 +21,9 @@ public class BookTest {
     public void hasAuthor() {
         assertEquals("George Orwell", book1.getAuthor());
     }
+
+    @Test
+    public void hasGenre() {
+        assertEquals("Dystopian", book1.getGenre());
+    }
 }
